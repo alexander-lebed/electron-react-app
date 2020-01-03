@@ -1,0 +1,21 @@
+.loading {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background: #131821;
+  -webkit-box-shadow: 0 0 36px 9px rgba(19, 24, 33, 1);
+  -moz-box-shadow: 0 0 36px 9px rgba(19, 24, 33, 1);
+  box-shadow: 0 0 36px 9px rgba(19, 24, 33, 1);
+}
+
+.loadingBlinker {
+  animation: blinker 700ms linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "electron-react-app",
+  "productName": "electron-react-app",
+  "version": "0.1.0",
+  "description": "Electron app with React, React Hot Loader, Typescript, Webpack",
+  "main": "./main.prod.js",
+  "scripts": {},
+  "dependencies": {}
+}

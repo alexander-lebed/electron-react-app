@@ -1,0 +1,39 @@
+@import "../../variables";
+
+.item {
+  height: 60px;
+  min-height: 60px;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  font-size: 0.8em;
+}
+
+.selected {
+  border-bottom: 1px solid $active-color;
+  color: $active-color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  color: lightgray;
+}
+
+.subject {
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.body {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

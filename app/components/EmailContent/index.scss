@@ -1,0 +1,33 @@
+.content {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  font-size: 0.9em;
+  overflow-y: auto;
+}
+
+.actions {
+  i {
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}
+
+.date {
+  color: lightgray;
+}
+
+.highlight {
+  padding: 20px 20px 30px 20px;
+  background: #3e485a;
+  overflow-y: auto;
+
+  .header {
+    margin-bottom: 15px;
+  }
+
+  .split {
+    display: flex;
+    justify-content: space-between;
+  }
+}
